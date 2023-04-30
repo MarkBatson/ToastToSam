@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.414494eb.css",
-    "main.js": "/static/js/main.3d5ea32e.js",
-    "static/js/787.d44313aa.chunk.js": "/static/js/787.d44313aa.chunk.js",
-    "static/media/Futura.ttf": "/static/media/Futura.36bbce08bf4be6007bb9.ttf",
-    "index.html": "/index.html",
-    "main.414494eb.css.map": "/static/css/main.414494eb.css.map",
-    "main.3d5ea32e.js.map": "/static/js/main.3d5ea32e.js.map",
-    "787.d44313aa.chunk.js.map": "/static/js/787.d44313aa.chunk.js.map"
+    "main.css": "/ToastToSam/static/css/main.ffcbe301.css",
+    "main.js": "/ToastToSam/static/js/main.cc6101ed.js",
+    "static/js/787.d44313aa.chunk.js": "/ToastToSam/static/js/787.d44313aa.chunk.js",
+    "static/media/Futura.ttf": "/ToastToSam/static/media/Futura.36bbce08bf4be6007bb9.ttf",
+    "index.html": "/ToastToSam/index.html",
+    "main.ffcbe301.css.map": "/ToastToSam/static/css/main.ffcbe301.css.map",
+    "main.cc6101ed.js.map": "/ToastToSam/static/js/main.cc6101ed.js.map",
+    "787.d44313aa.chunk.js.map": "/ToastToSam/static/js/787.d44313aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.414494eb.css",
-    "static/js/main.3d5ea32e.js"
+    "static/css/main.ffcbe301.css",
+    "static/js/main.cc6101ed.js"
   ]
 }
