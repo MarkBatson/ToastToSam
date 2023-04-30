@@ -22,20 +22,22 @@ export const App = () => {
 
   const pictures = [
     ["https://i.imgur.com/1TWmtPv.jpg", "https://i.imgur.com/eGCCkER.jpg", "https://i.imgur.com/xPoaiUb.jpg"],
-    ["https://i.imgur.com/KOYboql.jpg", "https://i.imgur.com/aXu95HH.jpg", "https://i.imgur.com/unPSDn6.jpg", "https://i.imgur.com/8RVUsmr.jpg"],
-    ["https://i.imgur.com/5N1jXr0.jpg"],
+    ["https://i.imgur.com/KOYboql.jpg", "https://i.imgur.com/aXu95HH.jpg", "https://i.imgur.com/HzJUq2x.jpg", "https://i.imgur.com/TwEpj4c.jpg", "https://i.imgur.com/fZsbP8C.jpg", "https://i.imgur.com/U90C22f.jpg", "https://i.imgur.com/PT9IOLQ.jpg", "https://i.imgur.com/2v5hwib.jpg"],
+    ["https://i.imgur.com/5N1jXr0.jpg", "https://i.imgur.com/qbTeOBm.jpg", "https://i.imgur.com/3oz5Swk.jpg", "https://i.imgur.com/qTanKp5.jpg", "https://i.imgur.com/zt9Yfnv.jpg"],
     ["https://i.imgur.com/Sz1VLge.jpg", "https://i.imgur.com/LdQyN6z.jpg", "https://i.imgur.com/nens6us.jpg", "https://i.imgur.com/PRvCJxe.jpg"],
     ["https://i.imgur.com/nnL4BE3.jpg", "https://i.imgur.com/QlUdyz0.jpg", "https://i.imgur.com/8C35UZO.jpg"],
   ];
 
   const rightClick = () => {
     if(reason > 0) {
+      window.scrollTo(0,0);
       setReason(reason - 1);
     }
   }
 
   const leftClick = () => {
     if (reason < 4) {
+      window.scrollTo(0,0);
       setReason(reason + 1);
     }
   }
@@ -95,6 +97,13 @@ export const App = () => {
         {top10[reason]}
       </h1>
       {loadPictures()}
+      <div className="flex">
+        {leftButton()}
+        <h1 className="title">
+          {reason+1}
+        </h1>
+        {rightButton()}
+      </div>
     </div>
   );
 }
