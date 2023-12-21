@@ -67,3 +67,16 @@
 .slide-down > div {            
   transform: translateY(0);
 } 
+
+.spot-the-difference {
+  width: 100%;
+}
+
+.form {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-family: Futura;
+  font-weight: 100;
+}
